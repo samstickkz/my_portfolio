@@ -12,7 +12,7 @@ const socials = () => {
       </a>{" "}
       <a href="#" target="_blank">
         LinkedIN
-      </a>{" "}
+      </a>
       <a href="#" target="_blank">
         LinkedIN
       </a>
