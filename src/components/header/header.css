@@ -28,6 +28,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  transition: transform 0.3s ease;
 }
 
 .header__socials::after {
@@ -60,19 +61,17 @@ header {
   transform: rotate(90deg);
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   header {
     height: 100vh;
   }
-  .header__socials{
-      display: none;
-  }
+  .header__socials,
   .scroll__down {
     display: none;
   }

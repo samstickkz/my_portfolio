@@ -1,5 +1,8 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
+import { FaTwitterSquare } from "react-icons/fa";
+import { RiTiktokLine } from "react-icons/ri";
+import { VscGithubInverted } from "react-icons/vsc";
 
 const socials = () => {
   return (
@@ -16,17 +19,17 @@ const socials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Twitter
+        <FaTwitterSquare />
       </a>{" "}
       <a
         href="https://www.tiktok.com/@obong_samjoe"
         target="_blank"
         rel="noreferrer"
       >
-        TikTok
+        <RiTiktokLine />
       </a>
       <a href="https://github.com/samstickkz" target="_blank" rel="noreferrer">
-        Github
+        <VscGithubInverted />
       </a>
     </div>
   );
