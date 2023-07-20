@@ -29,10 +29,11 @@ const footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="#">Facebook</a>
-        <a href="#">Facebook</a>
-        <a href="#">Facebook</a>
-        <a href="#">Facebook</a>
+        <a href="https://www.linkedin.com/in/samuel-joseph-samstickkz/">
+          LinkedIn
+        </a>
+        <a href="https://twitter.com/Obong_samjoe">Twitter</a>
+        <a href="https://www.tiktok.com/@obong_samjoe">TikTok</a>
       </div>
 
       <div className="copyright">

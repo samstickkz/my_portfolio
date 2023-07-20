@@ -101,6 +101,10 @@
       .about__content{
           text-align: center ;
       }
+
+      .about__content p{
+        margin-top: 2rem;
+      }
     
   }
 

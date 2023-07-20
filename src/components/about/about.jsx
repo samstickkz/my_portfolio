@@ -22,27 +22,33 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Eperience</h5>
-              <small>3+ years Expereince</small>
+              <h5>Experience</h5>
+              <small>3+ years Experience</small>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon" />
-              <h5>Eperience</h5>
-              <small>3+ years Expereince</small>
+              <h5>Experience</h5>
+              <small>3+ years Experience</small>
             </article>{" "}
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Eperience</h5>
-              <small>3+ years Expereince</small>
+              <h5>Experience</h5>
+              <small>3+ years Experience</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            excepturi nostrum totam quod repellat debitis amet? Cum non, minima
-            aliquam quo quis ipsa amet dignissimos ab officiis animi eligendi
-            voluptatem.
+            I am a talented UI/UX designer, React web developer, and a Flutter
+            developer. With a passion for blending aesthetics and functionality,
+            I create exceptional digital experiences. My expertise in React
+            enables me to build responsive web applications, while my
+            proficiency in Flutter allows me to craft elegant cross-platform
+            mobile apps for IOS and ANDROID. With a dedication to innovation and user-centered
+            design, I consistently deliver high-quality solutions that exceed
+            expectations.
           </p>
-          <a href="#contact" className="btn btn_primary">Lets Talk</a>
+          <a href="#contact" className="btn btn_primary">
+            Lets Talk
+          </a>
         </div>
       </div>
     </section>
