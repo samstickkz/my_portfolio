@@ -12,11 +12,12 @@
 
 :root {
   --color-bg: black;
-  --color-bg-varaint: #2c2c6c;
-  --color-primary: #9D9D9D;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* --color-bg-varaint: rgba(255, 255, 255, 0.6); */
+  --color-primary: #9d9d9d;
+  --color-primary-variant: #9ea3ae;
   --color-white: white;
   --color-light: rgba(255, 255, 255, 0.6);
+  --hover: #c8a449;
 
   --transition: all 400ms ease;
   --container-width-lg: 75%;
@@ -82,12 +83,12 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: #c8a449;
 }
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -96,9 +97,9 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  border-color: #c8a449;
 }
 
 .btn_primary {
