@@ -5,8 +5,7 @@ import Avat2 from "../../assets/avatar2.jpg";
 import Avat3 from "../../assets/avatar3.jpg";
 import Avat4 from "../../assets/avatar4.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from 'swiper/modules';
-
+import { Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -52,7 +51,7 @@ const Testimonials = () => {
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide className="testimonials" key={index}>
+            <SwiperSlide className="testimonial" key={index}>
               <div className="client_avatar">
                 <img src={avatar} alt="" />
               </div>

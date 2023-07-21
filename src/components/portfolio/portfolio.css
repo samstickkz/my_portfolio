@@ -10,10 +10,11 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  border-color: var(--color-bg-varaint);
 }
 
 .article_item:hover {
-  border-color: var(--color-primary-variant);
+  border-color: var(--hover);
   background: transparent;
 }
 
@@ -32,14 +33,15 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .container_portfolio {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
+    /* margin-top: 10rem; */
   }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   .container_portfolio {
     grid-template-columns: 1fr;
     gap: 1rem;

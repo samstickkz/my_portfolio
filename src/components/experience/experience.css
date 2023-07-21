@@ -10,11 +10,12 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  border-color: var(--color-primary-variant);
 }
 
 .experience_container > div:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--hover);
   cursor: default;
 }
 
@@ -37,7 +38,7 @@
 
 .expe-icons {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: var(--hover);
 }
 
 @media screen and (max-width: 1024px) {
@@ -58,7 +59,7 @@
 @media screen and (max-width: 600px) {
   .experience_container {
     margin-top: 5rem;
-    gap: 10rem;
+    gap: 1rem;
   }
   .experience_container > div {
     width: 100%;
