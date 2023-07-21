@@ -32,13 +32,25 @@ const footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.linkedin.com/in/samuel-joseph-samstickkz/">
+        <a
+          href="https://www.linkedin.com/in/samuel-joseph-samstickkz/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://twitter.com/Obong_samjoe">
+        <a
+          href="https://twitter.com/Obong_samjoe"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaTwitterSquare />
         </a>
-        <a href="https://www.tiktok.com/@obong_samjoe">
+        <a
+          href="https://www.tiktok.com/@obong_samjoe"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <RiTiktokLine />
         </a>

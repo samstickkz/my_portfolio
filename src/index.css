@@ -17,7 +17,7 @@
   --color-primary-variant: #9ea3ae;
   --color-white: white;
   --color-light: rgba(255, 255, 255, 0.6);
-  --hover: #c8a449;
+  --hover: rgb(200, 164, 73);
 
   --transition: all 400ms ease;
   --container-width-lg: 75%;
