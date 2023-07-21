@@ -1,6 +1,9 @@
 import React from "react";
 import "./footer.css";
-
+import { BsLinkedin } from "react-icons/bs";
+import { FaTwitterSquare } from "react-icons/fa";
+import { RiTiktokLine } from "react-icons/ri";
+import { VscGithubInverted } from "react-icons/vsc";
 const footer = () => {
   return (
     <footer>
@@ -30,14 +33,26 @@ const footer = () => {
 
       <div className="footer_socials">
         <a href="https://www.linkedin.com/in/samuel-joseph-samstickkz/">
-          LinkedIn
+          <BsLinkedin />
         </a>
-        <a href="https://twitter.com/Obong_samjoe">Twitter</a>
-        <a href="https://www.tiktok.com/@obong_samjoe">TikTok</a>
+        <a href="https://twitter.com/Obong_samjoe">
+          <FaTwitterSquare />
+        </a>
+        <a href="https://www.tiktok.com/@obong_samjoe">
+          {" "}
+          <RiTiktokLine />
+        </a>
+        <a
+          href="https://github.com/samstickkz"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <VscGithubInverted />
+        </a>
       </div>
 
       <div className="copyright">
-        <small>&copy; samuel Joseph</small>
+        <small>&copy; Samuel Joseph</small>
       </div>
     </footer>
   );
