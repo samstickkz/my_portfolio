@@ -39,12 +39,7 @@ const about = () => {
           <p>
             I am a talented UI/UX designer, React web developer, and a Flutter
             developer. With a passion for blending aesthetics and functionality,
-            I create exceptional digital experiences. My expertise in React
-            enables me to build responsive web applications, while my
-            proficiency in Flutter allows me to craft elegant cross-platform
-            mobile apps for IOS and ANDROID. With a dedication to innovation and user-centered
-            design, I consistently deliver high-quality solutions that exceed
-            expectations.
+            I create exceptional digital experiences.
           </p>
           <a href="#contact" className="btn btn_primary">
             Lets Talk

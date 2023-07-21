@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  margin-bottom: 4rem;
 }
 
 .about__me {
@@ -98,15 +99,11 @@
     gap: 1rem;
   }
 
-  .about__content  {
+  .about__content {
     text-align: center;
   }
 
   .about__content p {
-    margin:1.5rem 0;
+    margin: 1.5rem 0;
   }
-}
-
-.btn_primary {
-  justify-content: center;
 }
