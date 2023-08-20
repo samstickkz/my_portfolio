@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
+
 
 const about = () => {
   return (
@@ -22,22 +22,27 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years Experience</small>
+              <h5>Marketing</h5>
+              <small>6+ years Experience</small>
             </article>
             <article className="about__card">
-              <FaUsers className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years Experience</small>
+              <FaAward className="about__icon" />
+              <h5>Web Development</h5>
+              <small>1 year Experience</small>
             </article>{" "}
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years Experience</small>
+              <h5>Mobile Development</h5>
+              <small>2+ years Experience</small>
+            </article>
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>UI/UX Design</h5>
+              <small>2+ years Experience</small>
             </article>
           </div>
           <p>
-            I am a talented UI/UX designer, React web developer, and a Flutter
+            I am a talented Marketer, UI/UX designer, React web developer, and a Flutter
             developer. With a passion for blending aesthetics and functionality,
             I create exceptional digital experiences.
           </p>

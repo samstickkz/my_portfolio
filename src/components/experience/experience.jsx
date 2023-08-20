@@ -94,6 +94,87 @@ const experience = () => {
             </article>{" "}
           </div>
         </div>
+
+        <div className="expe_web">
+          <h3>Web Developer</h3>
+          <div className="expe_content">
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Html</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Css</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Rest Api</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+          </div>
+        </div>
+        <div className="expe_web">
+          <h3>Web Developer</h3>
+          <div className="expe_content">
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Html</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Css</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+            <article className="expe_details">
+              <MdLibraryAddCheck className="expe-icons" />
+              <div>
+                <h4>Rest Api</h4>
+                <small className="text-light">pro</small>
+              </div>
+            </article>{" "}
+          </div>
+        </div>
       </div>
     </section>
   );
