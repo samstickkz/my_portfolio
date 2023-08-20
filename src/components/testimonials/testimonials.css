@@ -39,6 +39,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  #testimonials{
+    margin-top: 125rem;
+  }
   .container.testimonials_container {
     width: var(--container-width-sm);
   }

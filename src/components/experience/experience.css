@@ -42,9 +42,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+
   #exper {
-    padding-top: 89px;
-  }
+    padding-top: 89px; 
+   }
+
   .experience_container {
     grid-template-columns: 1fr;
   }
@@ -60,8 +62,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    #exper {
-    padding-top: 89px;
+  #exper {
+   padding-top: 89px; 
   }
   .experience_container {
     margin-top: 5rem;
