@@ -35,6 +35,7 @@
 @media screen and (max-width: 1024px) {
   .container.testimonials_container {
     width: 60%;
+    
   }
 }
 
@@ -45,6 +46,7 @@
   }
   .container.testimonials_container {
     width: var(--container-width-sm);
+    
   }
 
   .client_review {
