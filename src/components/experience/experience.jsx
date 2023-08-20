@@ -25,7 +25,7 @@ const experience = () => {
             <article className="expe_details">
               <MdLibraryAddCheck className="expe-icons" />
               <div>
-                <h4>Rest Api</h4>
+                <h4>Rest Apis</h4>
                 <small className="text-light">pro</small>
               </div>
             </article>{" "}
