@@ -54,10 +54,10 @@ const Contact = () => {
           </article>
           <article className="contact_option">
             <FiTwitter className="contact_option_icon" />
-            <h4>Email</h4>
-            <h5>samjoerich@gmail.com</h5>
+            <h4>Twitter</h4>
+            <h5>Obong_samjoe</h5>
             <a
-              href="mailto:samjoerich@gmail.com"
+              href="https://twitter.com/Obong_samjoe"
               target="_blank"
               rel="noreferrer"
             >
@@ -67,7 +67,7 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_option_icon" />
             <h4>Whatsapp</h4>
-            <h5>samjoerich@gmail.com</h5>
+            <h5>+2347032346910</h5>
             <a
               href="https://api.whatsapp.com/?phone?=+2347032346910"
               target="_blank"
