@@ -11,7 +11,9 @@ import Footer from './components/footer/footer'
 
 
 
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-DNNJ8CLK35');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const app = () => {
   return (
     <>
