@@ -11,7 +11,6 @@ import Footer from './components/footer/footer'
 
 
 
-
 const app = () => {
   return (
     <>
