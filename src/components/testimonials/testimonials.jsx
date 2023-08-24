@@ -43,7 +43,7 @@ const Testimonials = () => {
       <h5>Clients Review</h5>
       <h2>Testimonials</h2>
 
-      <Swiper
+      <Swiper className="container testimonials__container"
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
@@ -51,7 +51,7 @@ const Testimonials = () => {
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide className="testimonial" key={index}>
+            <SwiperSlide key={index}  className="testimonial" key={index}>
               <div className="client_avatar">
                 <img src={avatar} alt="" />
               </div>

@@ -33,14 +33,14 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "God loves you",
+    title: "Mobile App",
     github: "https://github.com/samstickkz",
     demo: "https://www.tiktok.com/@obong_samjoe/video/7119517496012524805",
   },
   {
     id: 5,
     image: IMG5,
-    title: "God loves you",
+    title: "Mobile App",
     github: "https://github.com/samstickkz",
     demo: "https://www.tiktok.com/@obong_samjoe/video/7180359768513449222",
   },
