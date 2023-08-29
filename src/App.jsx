@@ -19,8 +19,11 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 Swal.fire({
   title: 'Welcome to my Portfolio!',
   text: 'Hey its Sam,  i built this with react, look around and tell me what you think',
+  
   icon: 'success',
-  confirmButtonText: 'Cool'
+ 
+  timer: 5000
+  
 })
 const app = () => {
   return (

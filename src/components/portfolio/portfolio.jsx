@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio3.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/fintech.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 // an array of data
 
@@ -40,9 +40,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Mobile App",
-    github: "https://github.com/samstickkz",
-    demo: "https://www.tiktok.com/@obong_samjoe/video/7180359768513449222",
+    title: "Fintech Website",
+    github: "https://github.com/samstickkz/fintech",
+    demo: "https://www.tiktok.com/@obong_samjoe/video/7272831010985774341",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Jobs</h5>
-      <h2>Mobile Dev Portfolio</h2>
+      <h2>Mobile / Web Portfolio</h2>
       <div className="container container_portfolio">
         {data.map(({ id, image, title, github, demo }) => {
           return (
