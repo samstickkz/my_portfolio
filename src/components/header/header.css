@@ -78,24 +78,14 @@ header {
     display: none;
   }
 
-  .header__container h1{
+  .header__container h1 {
     font-size: 1.8rem;
   }
 
-  .text-light{
+  .text-light {
     margin-top: 1rem;
   }
+  .CTA {
+    font-size: 12px;
+  }
 }
-/* @media screen and (max-width: 490px) {
-  .header__container h1 {
-    font-size: 1.5rem;
-  }
-  header {
-    height: 100vh;
-    
-  }
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
-} */
