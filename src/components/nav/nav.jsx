@@ -5,25 +5,45 @@ import { FaUserSecret } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { BsTools } from "react-icons/bs";
 import { BiSolidContact } from "react-icons/bi";
-import {useState} from "react";
+import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#" onClick={()=> setActiveNav('#')} className={activeNav ==='#'? 'active' : ''}>
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
-      <a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav ==='#'? 'active' : ''}>
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <FaUserSecret />
       </a>
-      <a href="#exper" onClick={()=> setActiveNav('#exper')} className={activeNav ==='#'? 'active' : ''}>
-        <GiSkills />  
+      <a
+        href="#exper"
+        onClick={() => setActiveNav("#exper")}
+        className={activeNav === "#" ? "active" : ""}
+      >
+        <GiSkills />
       </a>
-      <a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav ==='#'? 'active' : ''}>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <BsTools />
       </a>
-      <a href="#contact" onClick={()=> setActiveNav('#contact')} className={activeNav ==='#'? 'active' : ''}>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <BiSolidContact />
       </a>
     </nav>

@@ -1,5 +1,5 @@
-.container.testimonials_container {
-  width: 40%;
+.testimonials_container {
+  width: 30%;
   padding-bottom: 4rem;
 }
 
@@ -12,7 +12,6 @@
   border: 0.35rem solid var(--color-primary-variant);
 }
 .testimonial {
- 
   background: transparent;
   text-align: center;
   padding: 2rem;
@@ -36,18 +35,15 @@
 @media screen and (max-width: 1024px) {
   .container.testimonials_container {
     width: 60%;
-    
   }
 }
 
 @media screen and (max-width: 600px) {
-
-  #testimonials{
+  #testimonials {
     margin-top: 125rem;
   }
   .container.testimonials_container {
     width: var(--container-width-sm);
-    
   }
 
   .client_review {
