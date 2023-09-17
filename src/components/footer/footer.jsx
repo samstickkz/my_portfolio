@@ -40,7 +40,7 @@ const footer = () => {
           <BsLinkedin />
         </a>
         <a
-          href="https://twitter.com/Obong_samjoe"
+          href="https://twitter.com/samstickkz"
           target="_blank"
           rel="noreferrer"
         >

@@ -5,7 +5,6 @@ import { FiTwitter } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 
-
 const Contact = () => {
   const form = useRef();
 
@@ -19,7 +18,7 @@ const Contact = () => {
         form.current,
         "zfxD22suE-rAZaPzr"
       )
-      
+
       .then(
         (result) => {
           console.log(result.text);
@@ -29,8 +28,6 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-     
-     
   };
 
   return (
@@ -55,9 +52,9 @@ const Contact = () => {
           <article className="contact_option">
             <FiTwitter className="contact_option_icon" />
             <h4>Twitter</h4>
-            <h5>Obong_samjoe</h5>
+            <h5>Samuel Joseph</h5>
             <a
-              href="https://twitter.com/Obong_samjoe"
+              href="https://twitter.com/samstickkz"
               target="_blank"
               rel="noreferrer"
             >
