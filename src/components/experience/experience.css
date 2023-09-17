@@ -42,10 +42,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   #exper {
-    padding-top: 89px; 
-   }
+    padding-top: 89px;
+  }
 
   .experience_container {
     grid-template-columns: 1fr;
@@ -63,7 +62,7 @@
 
 @media screen and (max-width: 600px) {
   #exper {
-   padding-top: 10rem; 
+    padding-top: 15rem;
   }
   .experience_container {
     margin-top: 5rem;
@@ -72,5 +71,13 @@
   .experience_container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+  .marketing {
+    display: flex;
+    flex-direction: column;
+  }
+  .market {
+    display: flex;
+    flex-direction: column;
   }
 }

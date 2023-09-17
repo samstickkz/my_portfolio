@@ -2,8 +2,8 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/portfolio3i.jpg";
+import IMG4 from "../../assets/portfolio3.png";
 import IMG5 from "../../assets/fintech.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 // an array of data
@@ -42,7 +42,7 @@ const data = [
     image: IMG5,
     title: "Fintech Website",
     github: "https://github.com/samstickkz/fintech",
-    demo: "https://www.tiktok.com/@obong_samjoe/video/7272831010985774341",
+    demo: "https://fintech-by-sam.vercel.app/",
   },
   {
     id: 6,
