@@ -13,27 +13,9 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: Avat1,
-    name: "Samuel Joseph",
+    name: "Tamara Samuel",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
-  },
-  {
-    avatar: Avat2,
-    name: "Samuel Joseph",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
-  },
-  {
-    avatar: Avat3,
-    name: "Samuel Joseph",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
-  },
-  {
-    avatar: Avat4,
-    name: "Samuel Joseph",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
+      'Thank you, Samuel Joseph, for creating <a href="https://www.travelexpore.com">https://www.travelexpore.com</a>. Your vision has made travel more accessible and enjoyable for all of us. Your dedication is greatly appreciated.',
   },
 ];
 
@@ -57,7 +39,10 @@ const Testimonials = () => {
                 <img src={avatar} alt="" />
               </div>
               <h5 className="client_name">{name}</h5>
-              <small className="client_review">{review}</small>
+              <small
+                className="client_review"
+                dangerouslySetInnerHTML={{ __html: review }}
+              />
             </SwiperSlide>
           );
         })}
