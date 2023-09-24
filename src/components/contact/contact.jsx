@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
+  const [isMessageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,11 +19,12 @@ const Contact = () => {
         form.current,
         "zfxD22suE-rAZaPzr"
       )
-
       .then(
         (result) => {
           console.log(result.text);
           form.current.reset();
+          setMessageSent(true); // Set the state to indicate message sent
+          setTimeout(() => setMessageSent(false), 5000); // Clear the message after 5 seconds
         },
         (error) => {
           console.log(error.text);
@@ -92,6 +94,9 @@ const Contact = () => {
           <button type="submit" className="btn btn_primary">
             Send Message
           </button>
+          {isMessageSent && (
+            <p className="success-message">Message sent successfully!</p>
+          )}
         </form>
       </div>
     </section>
