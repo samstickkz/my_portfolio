@@ -14,15 +14,11 @@ const socials = () => {
       >
         <BsLinkedin />
       </a>
-      <a
-        href="https://twitter.com/Obong_samjoe"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://twitter.com/samstickkz" target="_blank" rel="noreferrer">
         <FaTwitterSquare />
       </a>{" "}
       <a
-        href="https://www.tiktok.com/@obong_samjoe"
+        href="https://www.tiktok.com/@samstickkz.dev"
         target="_blank"
         rel="noreferrer"
       >

@@ -38,7 +38,9 @@ header {
   height: 2rem;
   background: var(--color-primary);
 }
-
+.mod {
+  color: black;
+}
 /* Images*/
 
 .me {

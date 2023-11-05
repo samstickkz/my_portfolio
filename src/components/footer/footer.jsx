@@ -21,13 +21,13 @@ const footer = () => {
           <a href="#contact">Contact</a>
         </li>{" "}
         <li>
-          <a href="#experience">experience</a>
+          <a href="#experience">Experience</a>
         </li>{" "}
         <li>
-          <a href="#portfolio">portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>{" "}
         <li>
-          <a href="#services">services</a>
+          <a href="#services">Services</a>
         </li>
       </ul>
 
@@ -47,7 +47,7 @@ const footer = () => {
           <FaTwitterSquare />
         </a>
         <a
-          href="https://www.tiktok.com/@obong_samjoe"
+          href="https://www.tiktok.com/@samstickkz.dev"
           target="_blank"
           rel="noreferrer"
         >
