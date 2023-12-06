@@ -12,14 +12,18 @@ import Swal from "sweetalert2";
 
 import ReactGA from "react-ga";
 import Blog from "./components/blog/blog";
+import CryptoTicker from "./components/cryptoprice/cryptoprice";
 ReactGA.initialize("G-DNNJ8CLK35");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const app = () => {
   return (
     <>
+      <CryptoTicker />
       <Header />
+
       <Nav />
+
       <About />
       {/* <Blog /> */}
       <Experience />
