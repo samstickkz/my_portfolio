@@ -26,7 +26,7 @@ const CryptoTicker = () => {
   return (
     <div className="container crypto-ticker-container">
       <div className="ticker-item">
-        Bitcoin: {prices.bitcoin && prices.bitcoin.usd}
+        <span> Bitcoin:</span> {prices.bitcoin && prices.bitcoin.usd}
       </div>
       <div className="ticker-item">
         Ethereum: {prices.ethereum && prices.ethereum.usd}
