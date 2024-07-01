@@ -11,7 +11,9 @@ const header = () => {
         <h5>Hello , I am</h5>
 
         <h1>Samuel Joseph</h1>
-        <h5 className="text-light">A Marketer, UI/UX Designer, Mobile and Web Developer</h5>
+        <h5 className="text-light">
+          A Marketer, UI/UX Designer, Mobile and Web Developer
+        </h5>
 
         <CTA />
         <Socials />
@@ -19,12 +21,11 @@ const header = () => {
           <img src={Me} alt="" />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a href="#footer" className="scroll__down">
           Scroll Down
         </a>
       </div>
     </header>
-      
   );
 };
 

@@ -1,77 +1,71 @@
-footer{
-    background: var(--color-white);
-    padding: 3rem;
-    
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
-
+/* footer.css */
+footer {
+  background: var(--color-white);
+  padding: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+  position: relative; /* Added position relative */
 }
 
-footer a{
-    color: var(--color-bg);
-    
+footer a {
+  color: var(--color-bg);
 }
 
-
-.footer_logo{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-block;
-}
-.permalinks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
 }
 
-.footer_socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
 }
 
-.footer_socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 
-.footer_socials a:hover{
-    background: transparent;
-    border-color: var(--color-bg);
-    color: var(--color-bg);
+.footer_socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
 }
 
-.copyright{
-    margin-bottom: 4rem;
-    color: var(--color-bg);
-
+.footer_socials a:hover {
+  background: transparent;
+  border-color: var(--color-bg);
+  color: var(--color-bg);
 }
 
+.copyright {
+  margin-bottom: 4rem;
+  color: var(--color-bg);
+}
 
-@media screen and (max-width: 1024px) {
-  
+.back-to-top-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 
-  }
-  
-  @media screen and (max-width: 600px) {
-    
-    .permalinks{
-        flex-direction: column;
-        gap: 1.5rem;
-    
-    }
-    .footer_socials{
-        margin-bottom: 2.6rem;
-    }
-  }
-
-
+.back-to-top-btn:hover {
+  background-color: var(--color-bg-light);
+}
