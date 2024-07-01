@@ -33,6 +33,12 @@
   margin-bottom: 1rem;
 }
 
+.div_port-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 1024px) {
   .container_portfolio {
     grid-template-columns: 1fr 1fr;
