@@ -8,7 +8,7 @@ const socials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/samuel-joseph-samstickkz/"
+        href="https://www.linkedin.com/in/samuel-joseph-daniel/"
         target="_blank"
         rel="noreferrer"
       >
