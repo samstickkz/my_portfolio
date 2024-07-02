@@ -46,6 +46,9 @@ form {
   flex-direction: column;
   gap: 1.2rem;
 }
+form textarea {
+  flex-grow: 1;
+}
 
 input,
 textarea {
