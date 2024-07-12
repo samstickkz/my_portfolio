@@ -63,18 +63,18 @@ const Contact = () => {
               Send a Message
             </a>
           </article>{" "}
-          <article className="contact_option">
-            <BsWhatsapp className="contact_option_icon" />
-            <h4>Whatsapp</h4>
-            <h5>+2347032346910</h5>
-            <a
-              href="https://api.whatsapp.com/?phone?=+2348075862543"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a
+            href="https://api.whatsapp.com/?phone?=+2348075862543"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <article className="contact_option">
+              <BsWhatsapp className="contact_option_icon" />
+              <h4>Whatsapp</h4>
+              <h5>+2347032346910</h5>
               Send a Message
-            </a>
-          </article>
+            </article>
+          </a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
